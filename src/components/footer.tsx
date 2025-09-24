@@ -17,7 +17,7 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-8 border-t border-border pt-8 text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Karthick Raja M. All rights reserved.</p>
+          <p>&copy; 2024 Karthick Raja M. All rights reserved.</p>
         </div>
       </div>
     </footer>
