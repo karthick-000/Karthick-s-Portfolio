@@ -28,13 +28,13 @@ export default function ProjectsSection() {
                 <CardContent className="mt-auto">
                   <div className="flex gap-2">
                     <Button variant="ghost" size="sm" asChild>
-                      <a href="#" aria-label={`View code for ${project.title} on GitHub`}>
+                      <a href={project.codeUrl} target="_blank" rel="noopener noreferrer" aria-label={`View code for ${project.title} on GitHub`}>
                         <Github className="mr-2 h-4 w-4" />
                         Code
                       </a>
                     </Button>
                     <Button variant="ghost" size="sm" asChild>
-                       <a href="#" aria-label={`View live demo of ${project.title}`}>
+                       <a href={project.demoUrl} target="_blank" rel="noopener noreferrer" aria-label={`View live demo of ${project.title}`}>
                         <ExternalLink className="mr-2 h-4 w-4" />
                         Demo
                       </a>
