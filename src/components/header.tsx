@@ -14,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <a href="#home" className="mr-6 flex items-center space-x-2">
-          <span className="font-bold font-headline sm:inline-block">
+          <span className="font-bold font-headline sm:inline-block text-primary">
             Karthick Raja M
           </span>
         </a>
@@ -24,7 +24,7 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="transition-colors hover:text-foreground/80 text-foreground/60"
+              className="transition-colors hover:text-primary text-foreground/80"
             >
               {link.label}
             </a>
@@ -42,7 +42,7 @@ export function Header() {
             <SheetContent side="right">
               <div className="flex flex-col gap-6 p-6">
                 <a href="#home" className="mr-6 flex items-center space-x-2" onClick={() => setIsOpen(false)}>
-                  <span className="font-bold font-headline sm:inline-block">
+                  <span className="font-bold font-headline sm:inline-block text-primary">
                     Karthick Raja M
                   </span>
                 </a>

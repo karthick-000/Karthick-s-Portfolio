@@ -35,12 +35,16 @@ export const contactDetails = {
 };
 
 export const navigationLinks = [
-  { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
+  { href: '#education', label: 'Education' },
   { href: '#skills', label: 'Skills' },
-  { href: '#projects', label: 'Projects' },
   { href: '#experience', label: 'Experience' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#achievements', label: 'Achievements' },
+  { href: '#certifications', label: 'Certificates' },
+  { href: '#workshops', label: 'Workshops' },
   { href: '#internships', label: 'Internships'},
+  { href: '#interests', label: 'Interests' },
   { href: '#contact', label: 'Contact' },
 ];
 

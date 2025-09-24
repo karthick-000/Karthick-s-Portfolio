@@ -8,17 +8,29 @@ import CertificationsSection from '@/components/sections/certifications';
 import ContactSection from '@/components/sections/contact';
 import InternshipsSection from '@/components/sections/internships';
 
+// Placeholder sections
+const PlaceholderSection = ({ id, title }: { id: string, title: string }) => (
+  <section id={id} className="container py-16 text-center">
+    <h2 className="text-3xl font-bold">{title}</h2>
+    <p className="mt-4 text-muted-foreground">This section is under construction.</p>
+  </section>
+);
+
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-16 md:gap-24">
       <HeroSection />
       <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ExperienceSection />
-      <InternshipsSection />
       <EducationSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <ProjectsSection />
+      <PlaceholderSection id="achievements" title="Achievements" />
       <CertificationsSection />
+      <PlaceholderSection id="workshops" title="Workshops" />
+      <InternshipsSection />
+      <PlaceholderSection id="interests" title="Interests" />
       <ContactSection />
     </div>
   );
