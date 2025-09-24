@@ -5,10 +5,10 @@ import { cn } from '@/lib/utils';
 
 export function CursorFollower() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
-  const [isMounted, setIsMounted] = useState(false);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true);
+    setIsClient(true);
     const handleMouseMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
@@ -20,7 +20,7 @@ export function CursorFollower() {
     };
   }, []);
 
-  if (!isMounted) {
+  if (!isClient) {
     return null;
   }
 
