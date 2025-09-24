@@ -25,6 +25,7 @@ import type { StaticImageData } from 'next/image';
 import { InstagramIcon } from '@/components/icons/instagram';
 import { WhatsappIcon } from '@/components/icons/whatsapp';
 import { GmailIcon } from '@/components/icons/gmail';
+import interests from './interests.json';
 
 
 export const contactDetails = {
@@ -256,3 +257,5 @@ export const resumeDataForAI = {
   skills: `Technical: ${skills.technical.map(s => s.title).join(', ')}. Personal: ${skills.personal.map(s => s.name).join(', ')}.`,
   certifications: certifications.map(c => c.name).join(', '),
 };
+
+export const interestsData = interests.interests;
