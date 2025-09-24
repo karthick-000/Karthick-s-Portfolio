@@ -1,6 +1,7 @@
 import { achievements } from '@/lib/data';
 import { SectionHeading } from '../section-heading';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { Swords, Code, Star, Users } from 'lucide-react';
 
 export default function AchievementsSection() {
   return (
@@ -9,7 +10,7 @@ export default function AchievementsSection() {
         title="Notable Achievements" 
         subtitle="Highlights of my competitive and leadership experiences."
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {achievements.map((achievementCategory) => (
           <Card key={achievementCategory.category} className="bg-card/50 shadow-lg hover:shadow-primary/20 transition-shadow duration-300">
             <CardHeader className="flex-row items-center gap-4 pb-4">

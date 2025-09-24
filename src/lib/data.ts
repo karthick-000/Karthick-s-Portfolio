@@ -221,10 +221,16 @@ export const certifications = [
 
 export const achievements = [
     {
+        category: 'Hackathons',
+        icon: Code,
+        items: [
+            'Fin-Tech-thon – NIT Trichy',
+        ],
+    },
+    {
         category: 'Competitions',
         icon: Swords,
         items: [
-            'Fin-Tech-thon – NIT Trichy',
             'Innovators challenge in Mistral Solutions pvt ltd, II runner',
         ],
     },
