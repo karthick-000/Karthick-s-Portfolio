@@ -45,7 +45,7 @@ export default function HeroSection() {
         
         <div className="flex flex-wrap justify-center gap-4">
             {heroSocialLinks.map((link) => (
-                <Button key={link.name} asChild className={cn("text-white", socialColors[link.name] || 'bg-secondary text-secondary-foreground hover:bg-secondary/80')}>
+                <Button key={link.name} size="lg" asChild className={cn("text-white", socialColors[link.name] || 'bg-secondary text-secondary-foreground hover:bg-secondary/80')}>
                     <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name}>
                         <link.icon className="mr-2 h-5 w-5" />
                         {link.name}
