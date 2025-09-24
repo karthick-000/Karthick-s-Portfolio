@@ -50,7 +50,9 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     return (
       <MotionComp
+        whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
+        transition={{ duration: 0.2 }}
         className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
         {...props}
