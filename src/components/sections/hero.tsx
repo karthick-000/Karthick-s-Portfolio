@@ -9,8 +9,19 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="container py-24 sm:py-32">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="order-2 md:order-1 text-center md:text-left">
+      <div className="flex flex-col items-center text-center gap-8">
+        {profileImage && (
+            <Image
+              src={profileImage.imageUrl}
+              alt={profileImage.description}
+              width={400}
+              height={400}
+              className="rounded-full aspect-square object-cover border-8 border-card shadow-lg w-48 h-48 md:w-64 md:h-64"
+              data-ai-hint={profileImage.imageHint}
+              priority
+            />
+          )}
+        <div>
           <p className="text-primary font-semibold">Hello, I'm</p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mt-2">
             {heroData.name}
@@ -18,10 +29,10 @@ export default function HeroSection() {
           <h2 className="text-2xl sm:text-3xl font-semibold text-muted-foreground mt-3">
             {heroData.title}
           </h2>
-          <p className="mt-6 text-lg max-w-xl mx-auto md:mx-0">
+          <p className="mt-6 text-lg max-w-xl mx-auto">
             {heroData.tagline}
           </p>
-          <div className="mt-8 flex gap-4 justify-center md:justify-start">
+          <div className="mt-8 flex gap-4 justify-center">
             <Button size="lg" asChild>
               <a href="/resume.pdf" download>
                 <Download className="mr-2 h-5 w-5" />
@@ -35,19 +46,6 @@ export default function HeroSection() {
               </a>
             </Button>
           </div>
-        </div>
-        <div className="order-1 md:order-2 flex justify-center">
-          {profileImage && (
-            <Image
-              src={profileImage.imageUrl}
-              alt={profileImage.description}
-              width={400}
-              height={400}
-              className="rounded-full aspect-square object-cover border-8 border-card shadow-lg"
-              data-ai-hint={profileImage.imageHint}
-              priority
-            />
-          )}
         </div>
       </div>
     </section>
