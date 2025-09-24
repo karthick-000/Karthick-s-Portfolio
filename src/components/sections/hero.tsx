@@ -1,8 +1,10 @@
 import Image from 'next/image';
-import { heroData } from '@/lib/data';
+import { heroData, heroSocialLinks } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
-import { Download, Linkedin } from 'lucide-react';
+import { Download } from 'lucide-react';
+import { InstagramIcon } from '../icons/instagram';
+import { WhatsappIcon } from '../icons/whatsapp';
 
 export default function HeroSection() {
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile');
@@ -21,9 +23,25 @@ export default function HeroSection() {
               priority
             />
           )}
+
+        <div className="flex flex-wrap justify-center gap-4">
+            {heroSocialLinks.map((link) => (
+                <Button key={link.name} variant="outline" size="icon" asChild>
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name}>
+                        <link.icon className="h-5 w-5" />
+                    </a>
+                </Button>
+            ))}
+             <Button size="icon" asChild>
+              <a href="/resume.pdf" download>
+                <Download className="h-5 w-5" />
+              </a>
+            </Button>
+        </div>
+
         <div>
           <p className="text-primary font-semibold">Hello, I'm</p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mt-2">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mt-2 font-headline">
             {heroData.name}
           </h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-muted-foreground mt-3">
@@ -32,20 +50,6 @@ export default function HeroSection() {
           <p className="mt-6 text-lg max-w-xl mx-auto">
             {heroData.tagline}
           </p>
-          <div className="mt-8 flex gap-4 justify-center">
-            <Button size="lg" asChild>
-              <a href="/resume.pdf" download>
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
-              </a>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <a href="#contact">
-                <Linkedin className="mr-2 h-5 w-5" />
-                Contact Me
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </section>

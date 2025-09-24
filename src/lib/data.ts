@@ -20,12 +20,18 @@ import {
   Layers,
 } from 'lucide-react';
 import type { StaticImageData } from 'next/image';
+import { InstagramIcon } from '@/components/icons/instagram';
+import { WhatsappIcon } from '@/components/icons/whatsapp';
+
 
 export const contactDetails = {
   email: 'karthickraja1259@gmail.com',
   phone: '+91 9943151259',
   address: '56A Subramaniya Puram Street, Near Velavan Stores, Thoothukudi-2',
   linkedin: 'https://linkedin.com/in/karthick-raja-m-999006266',
+  github: 'https://github.com/karthickraja25',
+  instagram: 'https://www.instagram.com/karthick_raja_259/',
+  whatsapp: 'https://wa.me/919943151259'
 };
 
 export const navigationLinks = [
@@ -189,6 +195,14 @@ export const socialLinks = [
     { name: 'LinkedIn', url: contactDetails.linkedin, icon: Linkedin },
     { name: 'Email', url: `mailto:${contactDetails.email}`, icon: Mail },
     { name: 'Phone', url: `tel:${contactDetails.phone}`, icon: Phone },
+];
+
+export const heroSocialLinks = [
+    { name: 'LinkedIn', url: contactDetails.linkedin, icon: Linkedin },
+    { name: 'Email', url: `mailto:${contactDetails.email}`, icon: Mail },
+    { name: 'WhatsApp', url: contactDetails.whatsapp, icon: WhatsappIcon },
+    { name: 'GitHub', url: contactDetails.github, icon: Github },
+    { name: 'Instagram', url: contactDetails.instagram, icon: InstagramIcon },
 ];
 
 export const resumeDataForAI = {
