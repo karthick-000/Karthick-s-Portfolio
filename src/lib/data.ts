@@ -215,6 +215,7 @@ export const certifications = [
   { name: 'Cloud Computing (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1ZgBbLzNLwz7QgpnRt8qeAvLxI87X3qVb/view?usp=sharing' },
   { name: 'Business Intelligence and Analytics (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1-iwx0f993hYKIrSzhccXHaNkd2v-bvZb/view?usp=drive_link' },
   { name: 'Technical English for Engineers (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1k23hgMZGd2fDGjRstbF4DIT5vNQ7pj4S/view?usp=sharing' },
+  { name: 'Java Programming', icon: Award, certificateUrl: '#' },
   { name: 'Database Management System (Infosys Springboard)', icon: Award, certificateUrl: '#' },
 ];
 
