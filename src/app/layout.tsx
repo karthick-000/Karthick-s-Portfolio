@@ -6,6 +6,7 @@ import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import { cn } from '@/lib/utils';
 import { Chatbot } from '@/components/chatbot';
+import { CursorFollower } from '@/components/cursor-follower';
 
 const ptSans = PT_Sans({
   subsets: ['latin'],
@@ -37,6 +38,7 @@ export default function RootLayout({
           playfairDisplay.variable
         )}
       >
+        <CursorFollower />
         <Header />
         <main>{children}</main>
         <Footer />
