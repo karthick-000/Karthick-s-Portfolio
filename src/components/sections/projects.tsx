@@ -16,31 +16,16 @@ export default function ProjectsSection() {
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => {
-            const projectImage = PlaceHolderImages.find(
-              (img) => img.id === project.imagePlaceholderId
-            );
             return (
               <Card
                 key={index}
-                className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl group"
+                className="overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl group flex flex-col"
               >
-                {projectImage && (
-                  <div className="overflow-hidden">
-                    <Image
-                      src={projectImage.imageUrl}
-                      alt={project.title}
-                      width={600}
-                      height={400}
-                      className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-110"
-                      data-ai-hint={projectImage.imageHint}
-                    />
-                  </div>
-                )}
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="mt-auto">
                   <div className="flex gap-2">
                     <Button variant="ghost" size="sm" asChild>
                       <a href="#" aria-label={`View code for ${project.title} on GitHub`}>
