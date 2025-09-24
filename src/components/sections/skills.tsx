@@ -1,8 +1,8 @@
 import { skills } from '@/lib/data';
 import { SectionHeading } from '../section-heading';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
-import { Progress } from '../ui/progress';
 import { Badge } from '../ui/badge';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
 
 export default function SkillsSection() {
   return (
@@ -14,18 +14,17 @@ export default function SkillsSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <Card>
           <CardHeader>
-            <CardTitle>Technical Skills</CardTitle>
+            <CardTitle>Technical Expertise</CardTitle>
           </CardHeader>
-          <CardContent className="space-y-6">
-            {skills.technical.map((skill) => (
-              <div key={skill.name}>
-                <div className="flex justify-between items-center mb-1">
-                  <span className="font-medium">{skill.name}</span>
-                  <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                </div>
-                <Progress value={skill.level} aria-label={`${skill.name} proficiency`} />
-              </div>
-            ))}
+          <CardContent>
+            <Accordion type="single" collapsible className="w-full">
+              {skills.technical.map((skill, index) => (
+                <AccordionItem value={`item-${index}`} key={skill.title}>
+                  <AccordionTrigger>{skill.title}</AccordionTrigger>
+                  <AccordionContent>{skill.description}</AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </CardContent>
         </Card>
         <div className="space-y-8">

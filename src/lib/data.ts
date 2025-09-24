@@ -46,10 +46,16 @@ export const aboutData = {
 
 export const skills = {
   technical: [
-    { name: 'Java', level: 85, icon: Code },
-    { name: 'Python', level: 90, icon: Code },
-    { name: 'SQL', level: 80, icon: Database },
-    { name: 'IoT', level: 75, icon: Smartphone },
+    { title: 'My Technical Toolkit', description: 'Highlights the range of tools and technologies you are proficient in.' },
+    { title: 'Tech Stack & Tools', description: 'Emphasizes the specific technologies and tools you utilize in your work.' },
+    { title: 'Skills & Technologies', description: 'A straightforward title that covers both your skills and the technologies you work with.' },
+    { title: 'Development Expertise', description: 'Focuses on your proficiency in development and programming.' },
+    { title: 'Core Competencies', description: 'Showcases your fundamental skills and areas of expertise.' },
+    { title: 'Technical Proficiencies', description: 'A professional term for your technical skills and knowledge.' },
+    { title: 'What I Work With', description: 'A casual and approachable way to present your technical skills.' },
+    { title: 'Tools of the Trade', description: 'Highlights the specific tools you use in your professional work.' },
+    { title: 'Tech Skills & Tools', description: 'Combines both your technical skills and the tools you are proficient in.' },
+    { title: 'Tech Stack & Expertise', description: 'Emphasizes both the technologies you use and your expertise in them.' },
   ],
   personal: [
     { name: 'Teamwork', icon: Users },
@@ -176,6 +182,6 @@ export const resumeDataForAI = {
   workExperience: workExperience.map(e => `${e.role} at ${e.company} (${e.period})`).join('\n'),
   projects: projects.map(p => `${p.title}: ${p.description}`).join('\n'),
   education: education.map(e => `${e.degree} from ${e.institution} (${e.period})`).join('\n'),
-  skills: `Technical: ${skills.technical.map(s => s.name).join(', ')}. Personal: ${skills.personal.map(s => s.name).join(', ')}.`,
+  skills: `Technical: ${skills.technical.map(s => s.title).join(', ')}. Personal: ${skills.personal.map(s => s.name).join(', ')}.`,
   certifications: certifications.map(c => c.name).join(', '),
 };
