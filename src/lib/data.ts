@@ -238,8 +238,8 @@ export const achievements = [
         category: 'Participations',
         icon: Users,
         items: [
-            'RYLA - Rotract club - participations',
-            'Analytiq Quest - participations',
+            'RYLA - Rotract club',
+            'Analytiq Quest',
         ],
     },
 ];
