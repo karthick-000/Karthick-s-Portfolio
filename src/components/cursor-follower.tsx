@@ -27,7 +27,8 @@ export function CursorFollower() {
   return (
     <div
       className={cn(
-        "pointer-events-none fixed inset-0 z-30 transition duration-300"
+        "pointer-events-none fixed inset-0 z-30 transition duration-300",
+        "hidden md:block"
       )}
       style={{
         background: `radial-gradient(600px at ${position.x}px ${position.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
