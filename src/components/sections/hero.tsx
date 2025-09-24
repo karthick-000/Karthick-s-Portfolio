@@ -46,7 +46,7 @@ export default function HeroSection() {
         </div>
         
         <Button size="lg" asChild>
-          <a href="/resume.pdf" download>
+          <a href="https://drive.google.com/file/d/1qcJ057D511rMeb1i2t7Z4xsqoMvoAOWe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <Download className="mr-2 h-5 w-5" />
             Download Resume
           </a>
