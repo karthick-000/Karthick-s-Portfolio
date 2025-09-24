@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Karthick Raja M profile picture",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "project-drone",
+      "description": "Solar Powered Drone project image",
+      "imageUrl": "https://images.unsplash.com/photo-1638158980044-976fd9cab504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2xhciUyMGRyb25lfGVufDB8fHx8MTc1ODY5MjE1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solar drone"
+    },
+    {
+      "id": "project-bike",
+      "description": "Seoul Bike Trip Duration Prediction project image",
+      "imageUrl": "https://images.unsplash.com/photo-1585160269072-29e84c9778f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2l0eSUyMGJpa2V8ZW58MHx8fHwxNzU4NjIzMzcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city bike"
+    },
+    {
+      "id": "project-course",
+      "description": "Course Registration System project image",
+      "imageUrl": "https://images.unsplash.com/photo-1758270705639-9727f350f026?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx1bml2ZXJzaXR5JTIwc3lzdGVtfGVufDB8fHx8MTc1ODY5MjE1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university system"
+    },
+    {
+      "id": "project-face",
+      "description": "Face Recognition System project image",
+      "imageUrl": "https://images.unsplash.com/photo-1687360440741-f5df549b352d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmYWNlJTIwcmVjb2duaXRpb258ZW58MHx8fHwxNzU4NjkyMTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "face recognition"
+    },
+    {
+      "id": "project-video",
+      "description": "Streamed Video Streaming Site project image",
+      "imageUrl": "https://images.unsplash.com/photo-1663431504335-2aed3225f362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2aWRlbyUyMHN0cmVhbWluZ3xlbnwwfHx8fDE3NTg2OTIxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "video streaming"
+    },
+    {
+      "id": "project-self-driving",
+      "description": "Self-Driving Car Prototype project image",
+      "imageUrl": "https://images.unsplash.com/photo-1679851377983-00d4f58c6d6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzZWxmLWRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzU4NjkyMTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "self-driving car"
+    },
+    {
+      "id": "project-real-time-car",
+      "description": "Real-time Self-Driving Car Prototype project image",
+      "imageUrl": "https://images.unsplash.com/photo-1650699060875-c3d17c2695b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhdXRvbm9tb3VzJTIwdmVoaWNsZXxlbnwwfHx8fDE3NTg1OTAxNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "autonomous vehicle"
+    }
+  ]
 }
