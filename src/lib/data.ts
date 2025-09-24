@@ -14,6 +14,10 @@ import {
   Mail,
   Phone,
   Github,
+  Library,
+  Wrench,
+  Codepen,
+  Layers,
 } from 'lucide-react';
 import type { StaticImageData } from 'next/image';
 
@@ -46,16 +50,26 @@ export const aboutData = {
 
 export const skills = {
   technical: [
-    { title: 'My Technical Toolkit', description: 'Highlights the range of tools and technologies you are proficient in.' },
-    { title: 'Tech Stack & Tools', description: 'Emphasizes the specific technologies and tools you utilize in your work.' },
-    { title: 'Skills & Technologies', description: 'A straightforward title that covers both your skills and the technologies you work with.' },
-    { title: 'Development Expertise', description: 'Focuses on your proficiency in development and programming.' },
-    { title: 'Core Competencies', description: 'Showcases your fundamental skills and areas of expertise.' },
-    { title: 'Technical Proficiencies', description: 'A professional term for your technical skills and knowledge.' },
-    { title: 'What I Work With', description: 'A casual and approachable way to present your technical skills.' },
-    { title: 'Tools of the Trade', description: 'Highlights the specific tools you use in your professional work.' },
-    { title: 'Tech Skills & Tools', description: 'Combines both your technical skills and the tools you are proficient in.' },
-    { title: 'Tech Stack & Expertise', description: 'Emphasizes both the technologies you use and your expertise in them.' },
+    { 
+      title: 'Frontend',
+      icon: Codepen,
+      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
+    },
+    {
+      title: 'Backend',
+      icon: Server,
+      skills: ['Python', 'Flask', 'MySQL', 'Java', 'DBMS'],
+    },
+    {
+      title: 'Libraries',
+      icon: Layers,
+      skills: ['Scikit-learn', 'Numpy', 'Pandas', 'Matplotlib', 'OpenCV', 'TensorFlow'],
+    },
+    {
+      title: 'Tools',
+      icon: Wrench,
+      skills: ['Git', 'VS Code', 'Power BI'],
+    },
   ],
   personal: [
     { name: 'Teamwork', icon: Users },
