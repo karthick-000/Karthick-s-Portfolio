@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { heroData, socialLinks } from '@/lib/data';
+import { heroData, heroSocialLinks } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
@@ -35,7 +35,7 @@ export default function HeroSection() {
         </div>
         
         <div className="flex flex-wrap justify-center gap-4">
-            {socialLinks.map((link) => (
+            {heroSocialLinks.map((link) => (
                 <Button key={link.name} variant={link.name === 'Email' ? 'default' : link.name === 'Phone' ? 'accent' : 'secondary'} asChild>
                     <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name}>
                         <link.icon className="mr-2 h-5 w-5" />

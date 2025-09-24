@@ -199,6 +199,9 @@ export const socialLinks = [
     { name: 'LinkedIn', url: contactDetails.linkedin, icon: Linkedin },
     { name: 'Email', url: `mailto:${contactDetails.email}`, icon: Mail },
     { name: 'Phone', url: `tel:${contactDetails.phone}`, icon: Phone },
+    { name: 'GitHub', url: contactDetails.github, icon: Github },
+    { name: 'WhatsApp', url: contactDetails.whatsapp, icon: WhatsappIcon },
+    { name: 'Instagram', url: contactDetails.instagram, icon: InstagramIcon },
 ];
 
 export const heroSocialLinks = [
