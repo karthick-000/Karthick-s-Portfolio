@@ -47,6 +47,7 @@ export const navigationLinks = [
   { href: '#achievements', label: 'Achievements' },
   { href: '#certifications', label: 'Certificates' },
   { href: '#internships', label: 'Internships'},
+  { href: '#workshops', label: 'Workshops' },
   { href: '#interests', label: 'Interests' },
   { href: '#contact', label: 'Contact' },
 ];

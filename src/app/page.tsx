@@ -9,6 +9,7 @@ import ContactSection from '@/components/sections/contact';
 import InternshipsSection from '@/components/sections/internships';
 import AchievementsSection from '@/components/sections/achievements';
 import InterestsSection from '@/components/sections/interests';
+import WorkshopsSection from '@/components/sections/workshops';
 
 // Placeholder sections
 const PlaceholderSection = ({ id, title }: { id: string, title: string }) => (
@@ -31,6 +32,7 @@ export default function Home() {
       <AchievementsSection />
       <CertificationsSection />
       <InternshipsSection />
+      <WorkshopsSection />
       <InterestsSection />
       <ContactSection />
     </div>
