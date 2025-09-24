@@ -2,6 +2,7 @@
 
 import { z } from 'zod';
 import { generateResumeSummary, ResumeSummaryInput } from '@/ai/flows/generate-resume-summary';
+import { chat, ChatbotInput } from '@/ai/flows/chatbot-flow';
 import { resumeDataForAI } from '@/lib/data';
 import { contactFormSchema } from '@/lib/schemas';
 
@@ -27,4 +28,15 @@ export async function sendContactMessageAction(values: z.infer<typeof contactFor
   // return { success: false, error: 'Failed to send message. Please try again.' };
 
   return { success: true };
+}
+
+
+export async function chatAction(history: ChatbotInput['history']) {
+  try {
+    const { response } = await chat({ history });
+    return { response };
+  } catch (error) {
+    console.error('Error in chat action:', error);
+    return { response: 'Sorry, I encountered an error. Please try again.' };
+  }
 }
