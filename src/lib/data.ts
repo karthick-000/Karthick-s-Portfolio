@@ -18,6 +18,8 @@ import {
   Wrench,
   Codepen,
   Layers,
+  Swords,
+  Star,
 } from 'lucide-react';
 import type { StaticImageData } from 'next/image';
 import { InstagramIcon } from '@/components/icons/instagram';
@@ -43,7 +45,6 @@ export const navigationLinks = [
   { href: '#projects', label: 'Projects' },
   { href: '#achievements', label: 'Achievements' },
   { href: '#certifications', label: 'Certificates' },
-  { href: '#workshops', label: 'Workshops' },
   { href: '#internships', label: 'Internships'},
   { href: '#interests', label: 'Interests' },
   { href: '#contact', label: 'Contact' },
@@ -210,6 +211,24 @@ export const certifications = [
   { name: 'Business Intelligence and Analytics (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1-iwx0f993hYKIrSzhccXHaNkd2v-bvZb/view?usp=drive_link' },
   { name: 'Technical English for Engineers (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1k23hgMZGd2fDGjRstbF4DIT5vNQ7pj4S/view?usp=sharing' },
   { name: 'Database Management System (Infosys Springboard)', icon: Award, certificateUrl: '#' },
+];
+
+export const achievements = [
+    {
+        category: 'Hackathons',
+        icon: Swords,
+        items: [
+            'Fin-Tech-thon – NIT Trichy',
+            'Tuticorin Cyber Hackathon',
+        ],
+    },
+    {
+        category: 'Leadership',
+        icon: Star,
+        items: [
+            'Rotaract Club – Department Co-ordinator',
+        ],
+    },
 ];
 
 export const socialLinks = [

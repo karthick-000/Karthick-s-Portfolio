@@ -7,6 +7,7 @@ import EducationSection from '@/components/sections/education';
 import CertificationsSection from '@/components/sections/certifications';
 import ContactSection from '@/components/sections/contact';
 import InternshipsSection from '@/components/sections/internships';
+import AchievementsSection from '@/components/sections/achievements';
 
 // Placeholder sections
 const PlaceholderSection = ({ id, title }: { id: string, title: string }) => (
@@ -26,9 +27,8 @@ export default function Home() {
       <SkillsSection />
       <ExperienceSection />
       <ProjectsSection />
-      <PlaceholderSection id="achievements" title="Achievements" />
+      <AchievementsSection />
       <CertificationsSection />
-      <PlaceholderSection id="workshops" title="Workshops" />
       <InternshipsSection />
       <PlaceholderSection id="interests" title="Interests" />
       <ContactSection />
