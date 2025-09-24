@@ -221,11 +221,11 @@ export const certifications = [
 
 export const achievements = [
     {
-        category: 'Hackathons',
+        category: 'Competitions',
         icon: Swords,
         items: [
             'Fin-Tech-thon – NIT Trichy',
-            'Tuticorin Cyber Hackathon',
+            'Innovators challenge in Mistral Solutions pvt ltd, II runner',
         ],
     },
     {
@@ -233,6 +233,14 @@ export const achievements = [
         icon: Star,
         items: [
             'Rotaract Club – Department Co-ordinator',
+        ],
+    },
+     {
+        category: 'Participations',
+        icon: Users,
+        items: [
+            'RYLA - Rotract club - participations',
+            'Analytiq Quest - participations',
         ],
     },
 ];
