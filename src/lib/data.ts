@@ -163,19 +163,19 @@ export const internships = [
       'Explored data handling, automation, and application development.',
     ],
     icon: Briefcase,
-    certificateUrl: '#',
+    certificateUrl: 'https://drive.google.com/file/d/1YImsA3wqA0-XNJhyXDDhq3v-oXT2cACv/view?usp=sharing',
   },
   {
     title: 'Real-time Self-Driving Car Prototype (Project Internship)',
-    subtitle: 'National Engineering College – AI & DS Department',
-    period: '2024 – 2025 (Ongoing)',
+    subtitle: 'MIstral Solutions Pvt Ltd, Kovilpatti',
+    period: '2024 – 2025',
     description: [
       'Building a real-time autonomous car prototype using microcontrollers and sensors.',
       'Integrated AI models for object detection and decision-making.',
       'Hands-on experience in IoT, embedded systems, and AI-powered robotics.',
     ],
     icon: Briefcase,
-    certificateUrl: '#',
+    certificateUrl: 'https://drive.google.com/file/d/1xEMn2zyhMGpcWL9gwmMyix6C7yFiiWnv/view?usp=sharing',
   }
 ];
 
