@@ -4,27 +4,23 @@ import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
 export function CursorFollower() {
-  const [position, setPosition] = useState({ x: -200, y: -200 });
-  const [isClient, setIsClient] = useState(false);
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
+    setIsMounted(true);
     const handleMouseMove = (e: MouseEvent) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    if (typeof window !== 'undefined') {
-      window.addEventListener('mousemove', handleMouseMove);
-    }
+    window.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      if (typeof window !== 'undefined') {
-        window.removeEventListener('mousemove', handleMouseMove);
-      }
+      window.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
-  if (!isClient) {
+  if (!isMounted) {
     return null;
   }
 
