@@ -19,7 +19,7 @@ export default function SkillsSection() {
             <CardContent className="flex-grow">
               <ul className="space-y-3">
                 {category.skills.map((skill) => (
-                  <li key={skill} className="bg-muted/50 rounded-md px-4 py-2 text-center font-medium">
+                  <li key={skill} className="bg-muted/50 rounded-md px-4 py-2 text-center font-medium transition-all duration-300 hover:bg-primary/10 hover:scale-105">
                     {skill}
                   </li>
                 ))}
