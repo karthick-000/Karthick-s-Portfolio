@@ -22,6 +22,7 @@ import {
 import type { StaticImageData } from 'next/image';
 import { InstagramIcon } from '@/components/icons/instagram';
 import { WhatsappIcon } from '@/components/icons/whatsapp';
+import { GmailIcon } from '@/components/icons/gmail';
 
 
 export const contactDetails = {
@@ -199,7 +200,7 @@ export const certifications = [
 
 export const socialLinks = [
     { name: 'LinkedIn', url: contactDetails.linkedin, icon: Linkedin },
-    { name: 'Email', url: `mailto:${contactDetails.email}`, icon: Mail },
+    { name: 'Gmail', url: `mailto:${contactDetails.email}`, icon: GmailIcon },
     { name: 'Phone', url: `tel:${contactDetails.phone}`, icon: Phone },
     { name: 'GitHub', url: contactDetails.github, icon: Github },
     { name: 'WhatsApp', url: contactDetails.whatsapp, icon: WhatsappIcon },
@@ -208,7 +209,7 @@ export const socialLinks = [
 
 export const heroSocialLinks = [
     { name: 'LinkedIn', url: contactDetails.linkedin, icon: Linkedin },
-    { name: 'Email', url: `mailto:${contactDetails.email}`, icon: Mail },
+    { name: 'Gmail', url: `mailto:${contactDetails.email}`, icon: GmailIcon },
     { name: 'WhatsApp', url: contactDetails.whatsapp, icon: WhatsappIcon },
     { name: 'GitHub', url: contactDetails.github, icon: Github },
     { name: 'Instagram', url: contactDetails.instagram, icon: InstagramIcon },

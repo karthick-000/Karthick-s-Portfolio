@@ -3,6 +3,15 @@ import { heroData, heroSocialLinks } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Download } from 'lucide-react';
+import { cn } from '@/lib/utils';
+
+const socialColors: { [key: string]: string } = {
+  LinkedIn: 'bg-[#0077B5] hover:bg-[#0077B5]/90',
+  Gmail: 'bg-[#DB4437] hover:bg-[#DB4437]/90',
+  WhatsApp: 'bg-[#25D366] hover:bg-[#25D366]/90',
+  GitHub: 'bg-[#333] hover:bg-[#333]/90',
+  Instagram: 'bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:opacity-90',
+};
 
 export default function HeroSection() {
   const profileImage = PlaceHolderImages.find(img => img.id === 'profile');
@@ -36,7 +45,7 @@ export default function HeroSection() {
         
         <div className="flex flex-wrap justify-center gap-4">
             {heroSocialLinks.map((link) => (
-                <Button key={link.name} variant={link.name === 'Email' ? 'default' : link.name === 'Phone' ? 'accent' : 'secondary'} asChild>
+                <Button key={link.name} asChild className={cn("text-white", socialColors[link.name] || 'bg-secondary text-secondary-foreground hover:bg-secondary/80')}>
                     <a href={link.url} target="_blank" rel="noopener noreferrer" aria-label={link.name}>
                         <link.icon className="mr-2 h-5 w-5" />
                         {link.name}
