@@ -118,6 +118,7 @@ export const internships = [
       'Explored data handling, automation, and application development.',
     ],
     icon: Briefcase,
+    certificateUrl: '#',
   },
   {
     title: 'Real-time Self-Driving Car Prototype (Project Internship)',
@@ -129,6 +130,7 @@ export const internships = [
       'Hands-on experience in IoT, embedded systems, and AI-powered robotics.',
     ],
     icon: Briefcase,
+    certificateUrl: '#',
   }
 ];
 
@@ -156,11 +158,11 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: 'Introduction to IoT (NPTEL)', icon: Award },
-  { name: 'E-Business (NPTEL)', icon: Award },
-  { name: 'Introduction to Industry 4.0 (NPTEL)', icon: Award },
-  { name: 'Cloud Computing (NPTEL)', icon: Award },
-  { name: 'Database Management System (Infosys Springboard)', icon: Award },
+  { name: 'Introduction to IoT (NPTEL)', icon: Award, certificateUrl: '#' },
+  { name: 'E-Business (NPTEL)', icon: Award, certificateUrl: '#' },
+  { name: 'Introduction to Industry 4.0 (NPTEL)', icon: Award, certificateUrl: '#' },
+  { name: 'Cloud Computing (NPTEL)', icon: Award, certificateUrl: '#' },
+  { name: 'Database Management System (Infosys Springboard)', icon: Award, certificateUrl: '#' },
 ];
 
 export const socialLinks = [
