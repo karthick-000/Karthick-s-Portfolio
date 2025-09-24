@@ -234,13 +234,6 @@ export const achievements = [
             'Innovators challenge in Mistral Solutions pvt ltd, II runner',
         ],
     },
-    {
-        category: 'Leadership',
-        icon: Star,
-        items: [
-            'Rotaract Club – Department Co-ordinator',
-        ],
-    },
      {
         category: 'Participations',
         icon: Users,
