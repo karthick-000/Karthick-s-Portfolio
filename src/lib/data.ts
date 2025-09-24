@@ -188,10 +188,12 @@ export const education = [
 ];
 
 export const certifications = [
-  { name: 'Introduction to IoT (NPTEL)', icon: Award, certificateUrl: '#' },
-  { name: 'E-Business (NPTEL)', icon: Award, certificateUrl: '#' },
-  { name: 'Introduction to Industry 4.0 (NPTEL)', icon: Award, certificateUrl: '#' },
-  { name: 'Cloud Computing (NPTEL)', icon: Award, certificateUrl: '#' },
+  { name: 'Introduction to IoT (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1bqrbhU46jgAgbMopjEXos4v1pIviUaR4/view?usp=sharing' },
+  { name: 'E-Business (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1ennSMyksvn33ugGB9X4e0aWS-z9R2kPF/view?usp=sharing' },
+  { name: 'Introduction to Industry 4.0 (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1VOsGOVe-7PuRI9gsa8m3djwDRvKiSQMN/view?usp=sharing' },
+  { name: 'Cloud Computing (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1ZgBbLzNLwz7QgpnRt8qeAvLxI87X3qVb/view?usp=sharing' },
+  { name: 'Business Intelligence and Analytics (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1-iwx0f993hYKIrSzhccXHaNkd2v-bvZb/view?usp=drive_link' },
+  { name: 'Technical English for Engineers (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1k23hgMZGd2fDGjRstbF4DIT5vNQ7pj4S/view?usp=sharing' },
   { name: 'Database Management System (Infosys Springboard)', icon: Award, certificateUrl: '#' },
 ];
 
