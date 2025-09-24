@@ -30,6 +30,7 @@ export const navigationLinks = [
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#experience', label: 'Experience' },
+  { href: '#internships', label: 'Internships'},
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -104,6 +105,31 @@ export const workExperience = [
     period: 'Jul 2022 – Aug 2023',
     icon: Briefcase,
   },
+];
+
+export const internships = [
+  {
+    title: 'InternIQ (Online Internship)',
+    subtitle: 'Python Development Projects',
+    period: '2022 – 2023',
+    description: [
+      'Worked on multiple Python-based projects, enhancing programming and problem-solving skills.',
+      'Gained practical experience in applying Python to real-world use cases.',
+      'Explored data handling, automation, and application development.',
+    ],
+    icon: Briefcase,
+  },
+  {
+    title: 'Real-time Self-Driving Car Prototype (Project Internship)',
+    subtitle: 'National Engineering College – AI & DS Department',
+    period: '2024 – 2025 (Ongoing)',
+    description: [
+      'Building a real-time autonomous car prototype using microcontrollers and sensors.',
+      'Integrated AI models for object detection and decision-making.',
+      'Hands-on experience in IoT, embedded systems, and AI-powered robotics.',
+    ],
+    icon: Briefcase,
+  }
 ];
 
 export const education = [
