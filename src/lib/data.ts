@@ -20,6 +20,9 @@ import {
   Layers,
   Swords,
   Star,
+  Camera,
+  Bot,
+  Clock,
 } from 'lucide-react';
 import type { StaticImageData } from 'next/image';
 import { InstagramIcon } from '@/components/icons/instagram';
@@ -231,6 +234,21 @@ export const achievements = [
             'Rotaract Club – Department Co-ordinator',
         ],
     },
+];
+
+export const workshops = [
+  {
+    title: 'Introduction to Computer Vision with Python',
+    institution: 'PSG College of Technology, Coimbatore',
+    duration: '2 Days',
+    icon: Camera,
+  },
+  {
+    title: 'Robot-As-A-Service (RAAS) with IOT',
+    institution: 'NIT, Trichy',
+    duration: '1 Day',
+    icon: Bot,
+  }
 ];
 
 export const socialLinks = [
