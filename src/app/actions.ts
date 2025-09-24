@@ -1,10 +1,11 @@
 'use server';
 
 import { z } from 'zod';
-import { generateResumeSummary, ResumeSummaryInput } from '@/ai/flows/generate-resume-summary';
-import { chat, ChatbotInput } from '@/ai/flows/chatbot-flow';
+import { generateResumeSummary } from '@/ai/flows/generate-resume-summary';
+import { chat } from '@/ai/flows/chatbot-flow';
 import { resumeDataForAI } from '@/lib/data';
 import { contactFormSchema } from '@/lib/schemas';
+import type { ResumeSummaryInput, ChatbotInput } from '@/ai/flows/types';
 
 export async function generateSummaryAction() {
   try {
