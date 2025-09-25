@@ -172,8 +172,8 @@ export const internships = [
     certificateUrl: 'https://drive.google.com/file/d/1YImsA3wqA0-XNJhyXDDhq3v-oXT2cACv/view?usp=sharing',
   },
   {
-    title: 'Real-time Self-Driving Car Prototype (Project Internship)',
-    subtitle: 'MIstral Solutions Pvt Ltd, Kovilpatti',
+    title: 'MIstral Solutions Pvt Ltd, Kovilpatti',
+    subtitle: 'Real-time Self-Driving Car Prototype (R&D Internship)',
     period: '2024 – 2025',
     description: [
       'Building a real-time autonomous car prototype using microcontrollers and sensors.',
