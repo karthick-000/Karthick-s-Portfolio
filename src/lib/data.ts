@@ -215,33 +215,33 @@ export const certifications = [
   { name: 'Cloud Computing (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1ZgBbLzNLwz7QgpnRt8qeAvLxI87X3qVb/view?usp=sharing' },
   { name: 'Business Intelligence and Analytics (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1-iwx0f993hYKIrSzhccXHaNkd2v-bvZb/view?usp=drive_link' },
   { name: 'Technical English for Engineers (NPTEL)', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1k23hgMZGd2fDGjRstbF4DIT5vNQ7pj4S/view?usp=sharing' },
-  { name: 'Java Programming', icon: Award, certificateUrl: '#' },
+  { name: 'Java Programming', icon: Award, certificateUrl: 'https://drive.google.com/file/d/1oganT4LSENWvNjANBWlORH8eYu5w1H57/view?usp=sharing' },
   { name: 'Database Management System (Infosys Springboard)', icon: Award, certificateUrl: '#' },
 ];
 
 export const achievements = [
-    {
-        category: 'Hackathons',
-        icon: Code,
-        items: [
-            'Fin-Tech-thon – NIT Trichy',
-        ],
-    },
-    {
-        category: 'Competitions',
-        icon: Swords,
-        items: [
-            'Innovators challenge in Mistral Solutions pvt ltd, II runner',
-        ],
-    },
-     {
-        category: 'Participations',
-        icon: Users,
-        items: [
-            'RYLA - Rotract club',
-            'Analytiq Quest',
-        ],
-    },
+  {
+      category: 'Hackathons',
+      icon: Code,
+      items: [
+          { name: 'Fin-Tech-thon – NIT Trichy', certificateUrl: 'https://drive.google.com/file/d/17q15FxPeUnXuE4v_vQDlPBwUPZ213N_W/view?usp=sharing' },
+      ],
+  },
+  {
+      category: 'Competitions',
+      icon: Swords,
+      items: [
+          { name: 'Innovators challenge in Mistral Solutions pvt ltd, II runner', certificateUrl: 'https://drive.google.com/file/d/1KXsyawK9sPGir9_wuAkWCwZpkwEELX8A/view?usp=sharing' },
+      ],
+  },
+   {
+      category: 'Participations',
+      icon: Users,
+      items: [
+          { name: 'RYLA - Rotract club', certificateUrl: 'https://drive.google.com/file/d/1S5ECJ7Ij6y8NtNuF0DJSjuqeOQSWYMCS/view?usp=sharing' },
+          { name: 'Analytiq Quest', certificateUrl: 'https://drive.google.com/file/d/12Et7eeHolhpAe68tsQ1JlKVvJJZjCop5/view?usp=sharing' },
+      ],
+  },
 ];
 
 export const workshops = [
@@ -250,12 +250,14 @@ export const workshops = [
     institution: 'PSG College of Technology, Coimbatore',
     duration: '2 Days',
     icon: Camera,
+    certificateUrl: 'https://drive.google.com/file/d/1VRdIglEVIRfwdpOswD7HvEV39TedJz2W/view?usp=sharing',
   },
   {
     title: 'Robot-As-A-Service (RAAS) with IOT',
     institution: 'NIT, Trichy',
     duration: '1 Day',
     icon: Bot,
+    certificateUrl: '#',
   }
 ];
 
