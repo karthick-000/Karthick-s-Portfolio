@@ -9,7 +9,6 @@ import { chatAction } from '@/app/actions';
 import { ScrollArea } from './ui/scroll-area';
 import { cn } from '@/lib/utils';
 import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
-import { AnimatePresence, motion } from 'framer-motion';
 
 type Message = {
   role: 'user' | 'model';
@@ -55,13 +54,8 @@ export function Chatbot() {
         </Button>
       </div>
 
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
-            transition={{ duration: 0.2 }}
+      {isOpen && (
+          <div
             className="fixed bottom-24 right-6 z-50"
           >
             <Card className="w-[350px] h-[500px] flex flex-col shadow-2xl">
@@ -125,9 +119,8 @@ export function Chatbot() {
                 </div>
               </CardContent>
             </Card>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
     </>
   );
 }
