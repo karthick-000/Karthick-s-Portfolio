@@ -224,7 +224,7 @@ export const achievements = [
       category: 'Hackathons',
       icon: Code,
       items: [
-          { name: 'Fin-Tech-thon – NIT Trichy', certificateUrl: 'https://drive.google.com/file/d/17q15FxPeUnXuE4v_vQDlPBwUPZ213N_W/view?usp=sharing' },
+          { name: 'Fin-Tech-thon – NIT Trichy', certificateUrl: 'https://drive.google.com/file/d/1eQEOhAbo_6HkH4XL-6s90BZNr4vj8lVX/view?usp=sharing' },
       ],
   },
   {
