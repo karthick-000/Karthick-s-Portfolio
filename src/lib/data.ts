@@ -116,14 +116,14 @@ export const projects = [
     title: 'Course Registration System',
     description: 'Developed a course registration system using Queue method in Data Structures.',
     imagePlaceholderId: 'project-course',
-    codeUrl: '#',
+    codeUrl: 'https://docs.google.com/presentation/d/1DpOd_2KgLwoNtc7w7pCMqgeAMkrBVFdj/edit?usp=sharing&ouid=104635920535089063041&rtpof=true&sd=true',
     demoUrl: '#',
   },
   {
     title: 'Face Recognition System',
     description: 'Built a face recognition system using Local Binary Patterns Histogram.',
     imagePlaceholderId: 'project-face',
-    codeUrl: '#',
+    codeUrl: 'https://drive.google.com/file/d/1iXjSeNTi_hPQ4EYG2egeAeE1KfiAxdpX/view?usp=sharing',
     demoUrl: '#',
   },
   {
