@@ -36,7 +36,7 @@ export const contactDetails = {
   phone: '+91 9943151259',
   address: '56A Subramaniya Puram Street, Near Velavan Stores, Thoothukudi-2',
   linkedin: 'https://linkedin.com/in/karthick-raja-m-999006266',
-  github: 'https://github.com/karthick-000',
+  github: 'https://github.com/karthick-000/Karthick-s-Portfolio',
   instagram: 'https://www.instagram.com/____lonely_boi____/',
   whatsapp: 'https://wa.me/919943151259'
 };
