@@ -225,6 +225,7 @@ export const achievements = [
       icon: Code,
       items: [
           { name: 'Fin-Tech-thon – NIT Trichy', certificateUrl: 'https://drive.google.com/file/d/1eQEOhAbo_6HkH4XL-6s90BZNr4vj8lVX/view?usp=sharing' },
+          { name: 'Adobe India Hackathon', certificateUrl: 'https://drive.google.com/file/d/14v2-ZnoAk_al0_z5Ins8UfzWzS36ByeM/view?usp=sharing' },
       ],
   },
   {
