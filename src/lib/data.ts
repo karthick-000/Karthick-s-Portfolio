@@ -257,7 +257,7 @@ export const workshops = [
     institution: 'NIT, Trichy',
     duration: '1 Day',
     icon: Bot,
-    certificateUrl: '#',
+    certificateUrl: 'https://drive.google.com/file/d/17q15FxPeUnXuE4v_vQDlPBwUPZ213N_W/view?usp=drive_link',
   }
 ];
 
